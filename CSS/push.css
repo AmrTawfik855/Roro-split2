@@ -1,0 +1,27 @@
+:root {
+  --heading-font: "Dancing Script";
+  --main-font: "Roboto", sans-serif;
+  --secondry-font: "Inter", sans-serif;
+}
+
+h1 {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  font-size: 50px;
+  background-color: rgba(255, 124, 196, 0.877);
+  width: 50%;
+  border-radius: 50%;
+}
+
+p {
+  font-family: var(--secondry-font);
+  font-size: 19px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+img {
+  box-shadow: 0px 15px 27px -9px rgba(0, 0, 0, 0.62);
+  -webkit-box-shadow: 0px 15px 27px -9px rgba(0, 0, 0, 0.62);
+  -moz-box-shadow: 0px 15px 27px -9px rgba(0, 0, 0, 0.62);
+}
